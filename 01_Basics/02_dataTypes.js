@@ -40,8 +40,19 @@ console.log(BooleanisLoggedIn)
 
 
 // 1 => true ; 0 => false
-// "" => false ; "fizza" => true
 
+//Notes of Datatypes
+//two type of data types --Premetive  --non premitive
+
+//Premetive
+
+// 7 Types --String --Number --Boolean --null --undefined --Symbol --BigInt
+
+// Non-premetive(Reference)
+// Arrays --objects --Functions
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id == anotherId)
 
 
 
