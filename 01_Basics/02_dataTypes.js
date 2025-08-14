@@ -36,7 +36,7 @@ let ValueinNumber = Number(score)
 // true=> 1 , false => 0
 let isLoggedIn  = "fizza"
 let BooleanisLoggedIn = Boolean(isLoggedIn)
-console.log(BooleanisLoggedIn)
+// console.log(BooleanisLoggedIn)
 
 
 // 1 => true ; 0 => false
@@ -52,9 +52,31 @@ console.log(BooleanisLoggedIn)
 // Arrays --objects --Functions
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id == anotherId)
+// console.log(id == anotherId)
 
 
+
+// ++++++++++++++++++++++++++++
+
+//  stack (Primitive), Heap(Non-primitive)
+
+let myEmail = "tariqfizza70@gmail.com"
+
+let anotherEmail = myEmail
+anotherEmail = "fizz@gmail.com"
+
+// console.log(myEmail);
+// console.log(anotherEmail);
+
+let userOne = {
+    email: "user@gmail.com",
+    password: "Fizza1245"
+
+}
+let userTwo = userOne
+userTwo.email = "fizza@google.com"
+
+console.log(userOne.email);
 
 
 
